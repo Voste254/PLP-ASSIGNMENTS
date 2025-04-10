@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+   
+</head>
+
+<body>
+    
+
+    <!-- Ordered list with Roman numerals -->
+    <h2>Ordered List with Roman Numerals</h2>
+    <ol type="I">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+        <li>Fourth item</li>
+        <li>Fifth item</li>
+    </ol>
+
+    <!-- External Image from Pexels.com hosted on -->
+    <h2>External Image</h2>
+    <img src="https://i.postimg.cc/FzM9KYSD/istockphoto-1293762741-1024x1024.jpg" alt="Forest Trees" width="500">
+
+        <!-- HTML5 Image for local file (for example) -->
+        <h2>Local Image</h2>
+        <img src="images/local-image.jpg" alt="Local Image" width="500">
+    
+        <!-- Audio (HTML5) -->
+        <h2>Audio Element</h2>
+        <audio controls>
+            <source src="https://www.spotify.com/rhumba.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    
+        <!-- Video (HTML5) -->
+        <h2>Video Element</h2>
+        <video width="640" height="360" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+    <!-- Table of contacts -->
+    <h2>Contacts</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>Nairobi</td>
+            <td>+254712345678</td>
+            <td>johndoe@example.com</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>Nakuru</td>
+            <td>+2547654321</td>
+            <td>janesmith@example.com</td>
+        </tr>
+        <tr>
+            <td>Mark Taylor</td>
+            <td>Kisumu</td>
+            <td>+254112233445</td>
+            <td>marktaylor@example.com</td>
+        </tr>
+        <tr>
+            <td>Emily Davis</td>
+            <td>Mombasa</td>
+            <td>+2547998877665</td>
+            <td>emilydavis@example.com</td>
+        </tr>
+        <tr>
+            <td>Chris Johnson</td>
+            <td>Eldoret</td>
+            <td>+2547554433221</td>
+            <td>chrisjohnson@example.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+       
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+       
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+       
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Dropdown field -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="usa">USA</option>
+            <option value="kenya">Kenya</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+        <!-- Radio buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkbox -->
+        <label for="subscribe">Subscribe to newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+        <!-- Submit button -->
+        <button type="submit">Register</button>
+    </form>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Voste254. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
