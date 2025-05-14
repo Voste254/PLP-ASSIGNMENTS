@@ -1,8 +1,8 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.datasets import load_iris
+import seaborn as sns # type: ignore
+from sklearn.datasets import load_iris # type: ignore
 
 
 # Task 1: Load and Explore the Dataset
