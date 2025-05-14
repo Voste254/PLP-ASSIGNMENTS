@@ -1,0 +1,75 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: white;
+  padding: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.content {
+  flex: 3;
+}
+
+.sidebar {
+  flex: 1;
+  background: #f4f4f4;
+  padding: 1rem;
+}
+
+.footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+/* Responsive Design with Media Queries */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar h1 {
+    font-size: 1.2rem;
+  }
+
+  .nav-links {
+    font-size: 0.9rem;
+  }
+
+  .sidebar {
+    background: #eaeaea;
+  }
+}
